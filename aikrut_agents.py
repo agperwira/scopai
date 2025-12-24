@@ -14,10 +14,10 @@ import requests
 # =========================
 # Config
 # =========================
-OPENROUTER_API_KEY = st.secrets.get("OPENROUTER_API_KEY")
-OPENROUTER_URL = st.secrets.get("OPENROUTER_URL")
+OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+OPENROUTER_URL = st.secrets["OPENROUTER_URL"]
 
-DEFAULT_MODEL = st.secrets.get("DEFAULT_MODEL")  # contoh
+DEFAULT_MODEL = st.secrets["DEFAULT_MODEL"]  # contoh
 DEFAULT_TEMPERATURE = 0.2
 DEFAULT_TIMEOUT = 60
 
