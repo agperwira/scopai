@@ -538,10 +538,10 @@ def page_final_ranking():
 # =========================
 
 def main():
-    st.set_page_config(page_title="Aikrut POC", layout="wide")
+    st.set_page_config(page_title="Scopai Project V1", layout="wide")
     init_session()
 
-    st.sidebar.title("Aikrut POC")
+    st.sidebar.title("Scopai POC")
     menu = st.sidebar.radio(
         "Navigation",
         ["Home", "CV Processing", "Ranking", "Validation", "Final Ranking"],
