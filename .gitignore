@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+scopai/
+
+
+# Env & secrets
+.env
+.streamlit/secrets.toml
+
+# Streamlit
+.streamlit/*.toml
+
+# OS
+.DS_Store
