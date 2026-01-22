@@ -455,6 +455,7 @@ def agent_extract_cv_general(cv_text: str, model: str = DEFAULT_MODEL) -> Dict[s
         {"role": "user", "content": (
             "Ekstrak CV berikut menjadi format umum untuk berbagai pekerjaan.\n"
             "Jika data tidak ada, gunakan null (bukan string kosong).\n"
+            "Ekstrak hanya dalam maximal 1800 token jangan lebih"
             f"CV:\n{cv_text}"
         )}
     ]
